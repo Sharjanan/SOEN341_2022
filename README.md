@@ -8,9 +8,8 @@
 
   ---
 ## Core Features 
+---
 
-  * Browsing Items
-  
 
 ## Team members
 | Name | GitHub user name |
@@ -26,5 +25,4 @@
 ## Languages & Techniques
 
 
-Back-End Languages
 
