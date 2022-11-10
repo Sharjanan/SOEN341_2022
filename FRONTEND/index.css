@@ -19,7 +19,7 @@ body, html {
 
 /* Login page style */
 
-body.login_page {
+section.login_page {
   font-family: "Helvetica";
   background-color: #5c8cac;
   padding-left: 550px;
