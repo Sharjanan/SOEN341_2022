@@ -19,16 +19,16 @@ if (session_status() === PHP_SESSION_NONE) {
 <!-- Navbar (sit on top) -->
         <div class="w3-top">
             <div class="w3-bar w3-black w3-card" id="myNavbar">
-                <a href="#home" class="w3-bar-item w3-button w3-wide">LOGO</a>
+                <a href="index.html" class="w3-bar-item w3-button w3-wide">LOGO</a>
                 <!-- Right-sided navbar links -->
                 <div class="w3-right w3-hide-small">
 
-                <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+                <a href="product.php" class="w3-bar-item w3-button">PRODUCT</a>
                 <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
                 <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
                 <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
                 <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
-                <a href="login.html" class="w3-bar-item w3-button">Sign in</a>
+                <a href="login.php" class="w3-bar-item w3-button">Sign in</a>
                 </div>
                 <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
