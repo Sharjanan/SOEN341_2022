@@ -16,3 +16,9 @@ body, html {
 .w3-bar .w3-button {
   padding: 16px;
 }
+footer {
+  clear: both;
+  position: relative;
+  height: 200px;
+  margin-top: 0px;
+}
