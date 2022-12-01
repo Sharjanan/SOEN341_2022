@@ -1,24 +1,14 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>W3.CSS Template</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="index.css">
-</head>
-<body class="login_page">
+<?php include "header.php";?>
+<link rel="stylesheet" href="./css/login.css">
+<section class="login_page">
 
 <div class="login_box">
     <form id="login_form">
         <h3><b>LOGIN</b></h3>
         <label for="email">Email:</label><br>
         <input type="text" id="email" name="email"><br>
-        <label for="pwd">Password:</label><br>
-        <input type="password" id="pwd" name="password">
+        <label for="password">Password:</label><br>
+        <input type="text" id="password" name="password">
         <input type="checkbox" id="remember" name="remember" value="Remember me? ">
         <label for="remember"> Remember me?</label><br><br>
         <!-- choice for user type -->
@@ -40,6 +30,5 @@
     <!-- <button type="submit" form="login_form" value="Submit" class="login_button">LOGIN</button> -->
 </div>
 
-</body>
-
-</html>
+</section>
+<?php include "footer.php";?>
