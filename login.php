@@ -16,8 +16,8 @@
         <label for="user">User</label>
         <input type="radio" id="admin" name="user_type" value="ADMIN">
         <label for="admin">Admin</label>
-        <input type="radio" id="provider" name="user_type" value="PROVIDER">
-        <label for="provider">Provider</label><br><br>
+        <input type="radio" id="supervisor" name="user_type" value="SUPERVISOR">
+        <label for="supervisor">Supervisor</label><br><br>
 
         <div class="center">
             <input type="submit" name="submit" value="LOGIN" class="login_button">
