@@ -29,11 +29,13 @@
  <div class="about">
  <h1 class="title">Smart TV Samusang UHD</h1>
  </div>
-  <div class="prices"></div>
+ <div class="counter"></div>
+ <div class="prices"></div>
  <div class="prices">
  <div class="amount">$4999.99</div>
  </div>
  </div>
+ 
  
  <hr> 
  <div class="checkout">
@@ -47,6 +49,7 @@
  <button class="button">Approve Purchase</button>
  <button class="button2">Reject Quotation</button>
  </div>
+ 
  
  </div>
 </body>
