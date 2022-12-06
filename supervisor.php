@@ -29,6 +29,7 @@
  <div class="about">
  <h1 class="title">Smart TV Samusang UHD</h1>
  </div>
+  <div class="prices"></div>
  <div class="prices">
  <div class="amount">$4999.99</div>
  </div>
