@@ -17,10 +17,13 @@
    text-decoration: none;
    text-transform: capitalize;
 }
-
+body{
+   margin-top: 50px;
+}
 html{
    font-size: 62.5%;
    overflow-x: hidden;
+
 }
 
 .btn{
@@ -48,6 +51,8 @@ html{
    color:var(--black);
    margin-bottom: 2rem;
    text-align: center;
+   margin-top:50px;
+
 }
 
 .container{
@@ -152,7 +157,9 @@ html{
 @media (max-width:450px){
 
    html{
+      
       font-size: 50%;
    }
+
 
 }
