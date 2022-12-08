@@ -14,8 +14,8 @@
         <!-- choice for user type -->
         <input type="radio" id="user" name="user_type" value="USER">
         <label for="user">User</label>
-        <input type="radio" id="admin" name="user_type" value="ADMIN">
-        <label for="admin">Admin</label>
+        <input type="radio" id="provider" name="user_type" value="PROVIDER">
+        <label for="admin">Provider</label>
         <input type="radio" id="supervisor" name="user_type" value="SUPERVISOR">
         <label for="supervisor">Supervisor</label><br><br>
 
