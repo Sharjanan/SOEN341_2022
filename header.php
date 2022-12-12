@@ -12,7 +12,7 @@ if (session_status() === PHP_SESSION_NONE) {
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="./css/index.css">
         </head>
     <body>
 
@@ -27,8 +27,8 @@ if (session_status() === PHP_SESSION_NONE) {
                 <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
                 <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
                 <a href="#pricing" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> PRICING</a>
-                <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
-                <a href="login.php" class="w3-bar-item w3-button">Sign in</a>
+                <a href="cart.php" class="w3-bar-item w3-button"><i class="fa fa-shopping-cart"></i>CART</a>
+                <a href="login.php" class="w3-bar-item w3-button"><i class="fa fa-user"></i> SIGN IN</a>
                 </div>
                 <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 

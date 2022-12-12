@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `product`
 --
 
-CREATE TABLE `product` (
+CREATE TABLE `products` (
   `product_id` int(11) NOT NULL,
   `product_name` varchar(255) NOT NULL,
   `product_price` float DEFAULT NULL,
@@ -38,10 +38,10 @@ CREATE TABLE `product` (
 -- Dumping data for table `product`
 --
 
-INSERT INTO `product` (`product_id`, `product_name`, `product_price`, `product_img`) VALUES
-(1, 'airpods', 199.99, 'Airpods1.jpg|Airpods2.jpg|Airpods3.jpg'),
-(2, 'TV', 499.99, 'TV1.jpg|TV2.jpg|TV3.jpg'),
-(3, 'SportBag2', 299.99, 'SportBag1.jpg|SportBag2.jpg|SportBag3.jpg');
+INSERT INTO `products` (`product_id`, `product_name`, `product_price`, `product_img`) VALUES
+(1, 'airpods', 199.99, 'Airpods1.jpg'),
+(2, 'TV', 499.99, 'TV1.jpg'),
+(3, 'SportBag', 299.99, 'SportsBag1.jpg');
 
 --
 -- Indexes for dumped tables
@@ -50,7 +50,7 @@ INSERT INTO `product` (`product_id`, `product_name`, `product_price`, `product_i
 --
 -- Indexes for table `product`
 --
-ALTER TABLE `product`
+ALTER TABLE `products`
   ADD PRIMARY KEY (`product_id`);
 
 --
@@ -60,7 +60,7 @@ ALTER TABLE `product`
 --
 -- AUTO_INCREMENT for table `product`
 --
-ALTER TABLE `product`
+ALTER TABLE `products`
   MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 

@@ -9,7 +9,7 @@
  </div>
  <div class="Cart-Items">
  <div class="image-box">
-<img src="./products/Airpods2.jpg" height="120"><p>PhoneType Airpods</a>
+<img src="./products/Airpods1.jpg" height="120"><p>PhoneType Airpods</a>
  </div>
  <div class="about">
  <h1 class="title">Wireless Bluetooth airpods</h1>
