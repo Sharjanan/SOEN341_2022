@@ -25,7 +25,7 @@ $result = $link->query($sql);
   <div class="row">
     <div class="column">
       <div class="card">
-        <img src="./products/<?php echo $rows['product_img'];?>" alt="Denim Jeans" style="width:100%">
+        <img src="./products/<?php echo $rows['product_img'];?>" alt="Denim Jeans" style="width:100%" height="300" >
         <h3><?php echo $rows['product_name'];?></h3>
         <p class="price"><?php echo $rows['product_price'];?></p>
        
